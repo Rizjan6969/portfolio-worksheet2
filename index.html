@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rijan Maharjan Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER HERO SECTION -->
+    <header>
+        <video autoplay muted loop id="bg-video">
+            <source src="aesthetic.mp4" type="video/mp4">
+        </video>
+        <div class="hero-content">
+            <h1>Rijan <br> Maharjan</h1> 
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                     <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">My Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ABOUT ME SECTION -->
+    <section id="about">
+    <div class="about-container">
+        
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>Hello! I am Rijan Maharjan(Smiley), a passionate learner and a bachelor's student at Herald College, Kathmandu.<br>
+                I love experimenting with new things and applying them in practice to see the outcomes. I am naturally a smiling curious person.
+                This portfolio showcases my work.
+</p>
+        </div>
+
+        <div class="about-img">
+            <img src="https://assets.puzzlefactory.com/puzzle/350/147/original.jpg" alt="Rijan Maharjan">
+        </div>
+
+    </div>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+
+    <div class="skills-container">
+
+        <!-- HTML Skill -->
+        <div class="skill-box html-skill">
+            <img src="https://imgs.search.brave.com/ds8paIm03xbC4w60kMV_GZyZXk24NY5nezCrIvQRyx4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNy8w/OC8wNS8xMS8xNi9s/b2dvLTI1ODI3NDhf/NjQwLnBuZw" alt="HTML Logo" class="skill-logo">
+            
+            <div class="skill-details">
+                <div class="skill-info">
+                    <span class="skill-name">HTML</span>
+                    <span class="skill-percent">65%</span>
+                </div>
+                <div class="skill-bar"><span></span></div>
+            </div>
+        </div>
+
+        <!-- CSS Skill -->
+        <div class="skill-box css-skill">
+            <img src="https://imgs.search.brave.com/y4Sra6cUTLrIYhIQha3bL_0KXiEJKWB1CeRj2ZKg5FQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNy8w/OC8wNS8xMS8xNi9s/b2dvLTI1ODI3NDdf/MTI4MC5wbmc" alt="CSS Logo" class="skill-logo">
+            
+            <div class="skill-details">
+                <div class="skill-info">
+                    <span class="skill-name">CSS</span>
+                    <span class="skill-percent">50%</span>
+                </div>
+                <div class="skill-bar"><span></span></div>
+            </div>
+        </div>
+
+        <!-- Blender Skill -->
+        <div class="skill-box blender-skill">
+            <img src="logo.png" alt="Blender Logo" class="skill-logo">
+            
+            <div class="skill-details">
+                <div class="skill-info">
+                    <span class="skill-name">Blender</span>
+                    <span class="skill-percent">75%</span>
+                </div>
+                <div class="skill-bar"><span></span></div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section id="projects">
+    <h2>My Projects</h2>
+    <div class="project-container">
+
+        <!-- Project 1: -->
+        <div class="project-card">
+            <video muted loop class="project-img">
+                <source src="https://cdn.dribbble.com/userupload/42915894/file/large-7e3b3bdd31c9ef1fbe679197f43f1c07.mp4" type="video/mp4">
+            </video>
+            <h3>Weather-App</h3>
+        </div>
+
+        <!-- Project 2: Image + Video -->
+        <div class="project-card">
+            <div class="media-box">
+                <img src="blend.png" alt="3D Car Animation" class="project-img placeholder">
+                    <video muted loop class="project-img hover-video">
+                        <source src="blends.mp4" type="video/mp4">
+                    </video>
+            </div>
+            <h3>3D Car Animation</h3>
+        </div>
+    </div>
+</section>
+
+    <!-- CONTACT ME SECTION -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Rijan Maharjan</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
